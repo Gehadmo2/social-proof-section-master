@@ -1,0 +1,172 @@
+ * {
+     box-sizing: border-box;
+ }
+
+ @font-face {
+     font-family: "LeagueSpartan";
+     src: url(Font/LeagueSpartan-VariableFont_wght.ttf);
+ }
+
+ body {
+     background-color: rgb(247 247 247);
+     font-family: "LeagueSpartan";
+     margin: 0;
+ }
+
+ .main {
+     text-align: center;
+
+ }
+
+ h2 {
+     font-size: 100px;
+     color: rgb(138, 4, 140);
+     font-weight: bold;
+ }
+
+ p.caption {
+     font-size: 20px;
+     color: #b1aeae;
+ }
+
+ .rates .rate {
+     background-color: #e9e9e9;
+     padding: 31px;
+     border-radius: 20px;
+     text-align: center;
+     width: 650px;
+     margin: 2px auto;
+     font-size: 35px;
+     font-weight: bold;
+ }
+
+ div.post img {
+     border-radius: 50%;
+     width: 100px;
+ }
+
+ span {
+     color: rgb(252 49 255);
+     font-size: 30px;
+     margin: 3px;
+     letter-spacing: 1px;
+ }
+
+ .parent {
+     color: white;
+     margin: 59px auto;
+     width: calc(100% - 314px);
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+ }
+
+ .parent div {
+     margin-bottom: 50px;
+ }
+
+ .data {
+     top: 60px;
+     position: absolute;
+     right: 300px;
+ }
+
+ h4 {
+     font-size: 35px;
+     margin: 3px;
+     letter-spacing: 1px;
+ }
+
+ div.post {
+     background-color: rgb(138, 4, 140);
+     border-radius: 10px;
+     padding: 45px;
+     position: relative;
+ }
+
+ p.post {
+     max-width: 632px;
+     font-size: 35px;
+ }
+
+ @media (min-width:1000px) {
+     body {
+         margin: 10px;
+     }
+
+     .main div {
+         width: calc(100%/2);
+     }
+
+     .main {
+         display: flex;
+         margin: 40px 20px;
+         text-align: unset;
+     }
+
+     h2 {
+         margin: 0;
+         font-size: 80px;
+     }
+
+     p.caption {
+         font-size: 25px;
+     }
+
+     .rates .rate {
+         padding: 17px;
+         width: 437px;
+         font-size: 16px;
+         display: flex;
+         margin-right: 0;
+     }
+
+    .rates .one{
+         transform: translate(-40%, 0);
+     }
+    .rates .two {
+        transform: translate(-20%, 0);
+    }
+
+     div.post {
+         padding: 25px;
+         margin-left: 10px;
+     }
+    div.post img {
+        width: 50px;
+    }
+
+     .data {
+        right: 230px;
+        top: 30px;
+
+     }
+
+     p.post {
+         max-width: 399px;
+         font-size: 22px;
+     }
+
+     h4 {
+         font-size: 18px;
+     }
+
+     span {
+         font-size: 15px;
+     }
+
+     .parent {
+         display: flex;
+         margin: 10px;
+         width: unset;
+         flex-wrap: unset;
+         justify-content: unset;
+     }
+     .parent .two{
+        transform: translate(0,10%);
+     }
+    .parent .three {
+        transform: translate(0, 20%);
+    }
+
+ }
